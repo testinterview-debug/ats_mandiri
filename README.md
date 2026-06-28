@@ -48,13 +48,21 @@ The project is engineered using **Clean Architecture** and **MVVM (Model-View-Vi
 ## 📂 Project Structure
 
 app
+
 ├── core           # Base classes, common UI theme, and shared utilities
+
 ├── data           # API services, DTO Mappers, and Repository implementations
+
 ├── domain         # Business logic, Entity Models, and Use Cases
+
 └── presentation   # UI components
+
       ├── genre    # Genre Discovery Screen
+      
       ├── movie    # Movie Listings (Paginated)
+      
       └── detail   # Movie Insights, Trailers, and Reviews
+      
 
 ---
 
@@ -67,20 +75,12 @@ Sign up at [The Movie Database (TMDB)](https://www.themoviedb.org/) and generate
 Add your API key to your `local.properties` file in the project root:
 
 TMDB_API_KEY=your_api_key_here
+
 BASE_URL=https://api.themoviedb.org/3/
 
 ### 3. Build & Run
 1. Open the project in Android Studio (Ladybug or newer).
 2. Sync Gradle and run the `app` module on an emulator or physical device.
-
----
-
-## 📈 Future Roadmap
-
-- [ ] **Search:** Implement a global search bar for finding movies by title.
-- [ ] **Watchlist:** Local database storage (Room) for saving movies to watch later.
-- [ ] **Offline Mode:** Cache recent movie lists for offline browsing.
-- [ ] **Multi-language Support:** Localization for international movie titles and synopses.
 
 ---
 
