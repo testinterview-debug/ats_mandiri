@@ -1,3 +1,5 @@
+# Maulidani Mahmud
+
 # MovieDB Explorer 🎬[![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-blue.svg)](https://kotlinlang.org)
 [![Compose](https://img.shields.io/badge/Jetpack_Compose-Material_3-green.svg)](https://developer.android.com/jetpack/compose)
 [![Architecture](https://img.shields.io/badge/Architecture-Clean_Architecture-orange.svg)](https://developer.android.com/topic/architecture)
@@ -85,8 +87,7 @@ BASE_URL=https://api.themoviedb.org/3/
 ## 📜 License
 
 Copyright 2026
-Licensed under the MIT License. 
-You may use this project for personal and commercial purposes.
+Developed by Maulidani Mahmud
 
 ---
 **Developed with ❤️ for the Android Community.**
